@@ -8,5 +8,6 @@ public class Main{
             System.out.println("Do you want to take the test again(yes=1/No=0):");
             choice = scan.nextInt();
         }while(choice==1);
+        scan.close();
     }
 }

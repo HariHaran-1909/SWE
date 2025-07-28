@@ -53,5 +53,6 @@ public class Test{
     System.out.printf("\nWords per minute : %.2f", wpm);
     System.out.printf("\nAccuracy : %.2f%%\n", accuracy);
     
+    sc.close();
    }
 }
