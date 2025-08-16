@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("API Data Fetcher project setup complete!");
+        APIclient client = new APIclient("https://jsonplaceholder.typicode.com/todos/1");
+        String response = client.fetchData();
+
+        System.out.println("API response:");
+        System.out.println(response);
     }
 }
